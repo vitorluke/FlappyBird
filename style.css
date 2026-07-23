@@ -1,0 +1,50 @@
+body{
+
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+
+}
+
+#background{
+
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#title{
+    
+    font-family: sans-serif;
+    color:blueviolet;
+    border: 3px solid blue;
+    background-color: snow;
+}
+
+#screen{
+    width: 20vw;
+    height: 60vh;
+    background-color: bisque;
+    border: 3px solid blue;
+}
+
+#volume{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+    height: 2vw;
+    background-color: green;
+}
+
+#volume-text{
+    color: black;
+    font-family: sans-serif;
+}
